@@ -19,10 +19,10 @@ const Homepage = () => {
   <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
 { /* Image Container */}
 <div className="h-1/2 lg:h-full lg:w-1/2 relative ">
-  <Image src="/Me2.JPG"alt="" fill className="object-contain"/>
+  <Image src="/hero.png"alt="" fill className="object-contain h-full w-full"/>
 </div>
 { /* Text Container */}
-    <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+    <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center z-40">
     { /* Title */}
     <h1 className="text-4xl md:text-6xl font-bold">Welcome to My Portfolio</h1>
     { /* Description */}
